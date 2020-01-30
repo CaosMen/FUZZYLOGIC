@@ -26,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Game Fuzzy.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Game Fuzzy.data.gz",
-        frameworkUrl: buildUrl + "/Game Fuzzy.framework.js.gz",
-        codeUrl: buildUrl + "/Game Fuzzy.wasm.gz",
+        dataUrl: buildUrl + "/Game Fuzzy.data",
+        frameworkUrl: buildUrl + "/Game Fuzzy.framework.js",
+        codeUrl: buildUrl + "/Game Fuzzy.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "WarVillains",
         productName: "Fuzzy Implementation",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
